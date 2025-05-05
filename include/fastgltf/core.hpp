@@ -216,6 +216,10 @@ namespace fastgltf {
 
 		// See https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_draco_mesh_compression
 		KHR_draco_mesh_compression = 1 << 26,
+
+		// Added by MK 05/04/2025
+		// See https://github.com/KhronosGroup/glTF/tree/main/extensions/2.0/Khronos/KHR_materials_diffuse_transmission
+		KHR_materials_diffuse_transmission = 1 << 27,
     };
     // clang-format on
 
@@ -343,6 +347,9 @@ namespace fastgltf {
 #if FASTGLTF_ENABLE_DEPRECATED_EXT
         constexpr std::string_view KHR_materials_pbrSpecularGlossiness = "KHR_materials_pbrSpecularGlossiness";
 #endif
+
+		constexpr std::string_view KHR_materials_diffuse_transmission = "KHR_materials_diffuse_transmission";
+
     } // namespace extensions
 
 	// clang-format off
@@ -350,9 +357,9 @@ namespace fastgltf {
 	// value used for enabling/disabling the loading of it. This also represents all extensions that
 	// fastgltf supports and understands.
 #if FASTGLTF_ENABLE_DEPRECATED_EXT
-	static constexpr std::size_t SUPPORTED_EXTENSION_COUNT = 25;
+	static constexpr std::size_t SUPPORTED_EXTENSION_COUNT = 26;
 #else
-	static constexpr std::size_t SUPPORTED_EXTENSION_COUNT = 24;
+	static constexpr std::size_t SUPPORTED_EXTENSION_COUNT = 25;
 #endif
 	static constexpr std::array<std::pair<std::string_view, Extensions>, SUPPORTED_EXTENSION_COUNT> extensionStrings = {{
 		{ extensions::EXT_mesh_gpu_instancing,                  Extensions::EXT_mesh_gpu_instancing },
@@ -383,6 +390,8 @@ namespace fastgltf {
 #if FASTGLTF_ENABLE_DEPRECATED_EXT
 		{ extensions::KHR_materials_pbrSpecularGlossiness,Extensions::KHR_materials_pbrSpecularGlossiness },
 #endif
+
+		{ extensions::KHR_materials_diffuse_transmission,       Extensions::KHR_materials_diffuse_transmission },
 	}};
 	// clang-format on
 

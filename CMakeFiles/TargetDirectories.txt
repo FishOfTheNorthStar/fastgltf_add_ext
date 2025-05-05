@@ -1,0 +1,7 @@
+/home/pi/Desktop/gl_test1/fastgltf/CMakeFiles/fastgltf.dir
+/home/pi/Desktop/gl_test1/fastgltf/CMakeFiles/edit_cache.dir
+/home/pi/Desktop/gl_test1/fastgltf/CMakeFiles/rebuild_cache.dir
+/home/pi/Desktop/gl_test1/fastgltf/CMakeFiles/list_install_components.dir
+/home/pi/Desktop/gl_test1/fastgltf/CMakeFiles/install.dir
+/home/pi/Desktop/gl_test1/fastgltf/CMakeFiles/install/local.dir
+/home/pi/Desktop/gl_test1/fastgltf/CMakeFiles/install/strip.dir

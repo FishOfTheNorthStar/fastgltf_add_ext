@@ -1,0 +1,12 @@
+/usr/local/include/fastgltf/base64.hpp
+/usr/local/include/fastgltf/core.hpp
+/usr/local/include/fastgltf/dxmath_element_traits.hpp
+/usr/local/include/fastgltf/glm_element_traits.hpp
+/usr/local/include/fastgltf/tools.hpp
+/usr/local/include/fastgltf/types.hpp
+/usr/local/include/fastgltf/util.hpp
+/usr/local/include/fastgltf/math.hpp
+/usr/local/lib/cmake/fastgltf/fastgltfConfigVersion.cmake
+/usr/local/lib/libfastgltf.a
+/usr/local/lib/cmake/fastgltf/fastgltfConfig.cmake
+/usr/local/lib/cmake/fastgltf/fastgltfConfig-noconfig.cmake
